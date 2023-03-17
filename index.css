@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,202 +12,380 @@ body {
     font-family: 'Heebo', sans-serif;
 }
 
-.list{
+.list {
     display: flex;
-gap: 30px;
-padding-top: 30px;
-cursor: pointer;
+    gap: 30px;
+    padding-top: 30px;
+    cursor: pointer;
 }
-.list_item:hover{
-color: #FF6464;
-}
-.list_item{
-    font-style: normal;
-font-weight: 500;
-font-size: 20px;
-color: #000000;
 
-}
-.text_person{
-    font-style: normal;
-    font-weight: 700;
-font-size: 44px;
-color: #21243D;
-}
-.text_person:hover{
+.list_item:hover {
     color: #FF6464;
 }
-.text_all{
-    font-style: normal;
-    font-weight: 400;
-font-size: 16px;
-color: #21243D;
-margin-top: 40px;
-}
-.button_person{
+
+.list_item {
     font-style: normal;
     font-weight: 500;
-font-size: 20px;
-color: #FFFFFF;
-padding: 5px 20px;
-background: #FF6464;
-border-radius: 2px;
-border: none;
-margin-top: 38px;
-cursor: pointer;
+    font-size: 20px;
+    color: #000000;
+
 }
-.button_person:hover{
+
+.text_person {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    color: #21243D;
+}
+
+.text_person:hover {
+    color: #FF6464;
+}
+
+.text_all {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243D;
+    margin-top: 40px;
+}
+
+.button_person {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    background: #FF6464;
+    border-radius: 2px;
+    border: none;
+    margin-top: 38px;
+    cursor: pointer;
+}
+
+.button_person:hover {
     color: #FF6464;
     background-color: white;
 }
-    
-.person_img{
-width: 100%;
-border-radius: 50%;
-margin-left: 100px;
+
+.person_img {
+    width: 100%;
+    border-radius: 50%;
 }
-header{
+
+
+
+header {
     padding-top: 100px;
     padding-bottom: 70px;
 }
-section{
-    background-color:  #EDF7FA;
+
+.s1 {
+    background-color: #EDF7FA;
     padding-top: 10px;
     padding-bottom: 32px;
 }
-.box1{
+
+.box1 {
     background: #FFFFFF;
-box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
-border-radius: 4px;
-padding: 24px 22px;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    padding: 24px 22px;
 }
-.box2{
+
+.box2 {
     background: #FFFFFF;
-box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
-border-radius: 4px;
-padding: 24px 22px;
-margin-left: 20px;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    padding: 24px 22px;
+    margin-left: 20px;
 }
-.text1{
+
+.text1 {
     font-weight: 700;
-font-size: 30px;
-color: #21243D;
+    font-size: 30px;
+    color: #21243D;
 }
-.text2{
+
+.text2 {
     font-weight: 400;
-font-size: 20px;
-color: #21243D;
-margin-top: 17px;
+    font-size: 20px;
+    color: #21243D;
+    margin-top: 17px;
 
 }
-.text3{
+
+.text3 {
     font-weight: 400;
-font-size: 18px;
-color: #21243D;
-margin-top: 11px;
+    font-size: 18px;
+    color: #21243D;
+    margin-top: 11px;
 }
-.re{
+
+.re {
     ont-weight: 400;
-font-size: 22px;
-display: flex;
-align-items: flex-end;
-color: #21243D;
-margin-top: 10px;
-}
-.all{
-    font-weight: 400;
-font-size: 16px;
-text-align: right;
-color: #00A8CC;
-margin-top: 18px;
+    font-size: 22px;
+    display: flex;
+    align-items: flex-end;
+    color: #21243D;
+    margin-top: 10px;
 }
 
-.veb1{
-    width: 100%;
-    height: 200px;
-    box-shadow: 2px 2px 10px gray;
-    margin-bottom: 15px;
-    border-radius: 15px;
+.all {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #00A8CC;
+    margin-top: 18px;
 }
-.veb2{
+
+.veb1 {
     width: 100%;
-    height: 200px;
+    /* height: 200px; */
     box-shadow: 2px 2px 10px gray;
     border-radius: 15px;
 }
 
-.oo{
+.veb2 {
+    width: 100%;
+    height: 200px;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 15px;
+}
+
+.oo {
     font-weight: 400;
-font-size: 22px;
-color: #21243D;
-margin-top: 35px;
-margin-bottom: 16px;
+    font-size: 22px;
+    color: #21243D;
+    margin-top: 35px;
+    margin-bottom: 16px;
 }
-.design{
+
+.design {
     font-weight: 700;
-font-size: 30px;
-color: #21243D;
+    font-size: 30px;
+    color: #21243D;
 }
-.design1{
+
+.design1 {
     font-weight: 700;
-color: #21243D;
+    color: #21243D;
 }
-.ota{
+
+.ota {
     display: flex;
     padding-top: 16px;
 }
-.yil{
+
+.yil {
     font-weight: 900;
-font-size: 18px;
-color: #FFFFFF;
-padding: 2px 10px;
-background: #142850;
-border-radius: 16px;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 2px 10px;
+    background: #142850;
+    border-radius: 16px;
 }
-.gray{
+
+.gray {
     padding-left: 26px;
     font-weight: 400;
-font-size: 20px;
-color: #8695A4;
+    font-size: 20px;
+    color: #8695A4;
 
 }
-.key{
+
+.key {
     font-weight: 400;
-font-size: 16px;
-color: #21243D;
-margin-top: 17px;
+    font-size: 16px;
+    color: #21243D;
+    margin-top: 17px;
 }
-.cart1{
+
+.cart1 {
     display: flex;
     margin-top: 50px;
     margin-bottom: 35px;
 }
-.cart{
-margin-top: 25px;
-display: flex;
-margin-bottom: 66px;
+
+.cart {
+    margin-top: 25px;
+    display: flex;
+    margin-bottom: 66px;
 }
-.sur{
+
+.sur {
     margin-left: 25px;
+    margin-top: 50px;
 }
-footer{
+
+.hr2 {
+    margin-top: 20px;
+}
+
+footer {
     padding-top: 80px;
     padding-bottom: 50px;
 }
-.icons{
+
+.icons {
     display: flex;
     justify-content: center;
     gap: 42px;
 }
 
-.fa-brands{
+.fa-brands {
     font-size: 40px;
     color: black;
 }
-.end{
+
+.end {
     font-weight: 400;
-font-size: 14px;
-text-align: center;
-color: #21243D;
-margin-top: 30px;
+    font-size: 14px;
+    text-align: center;
+    color: #21243D;
+    margin-top: 30px;
+}
+
+.list i {
+    display: none;
+}
+
+
+
+@media (max-width: 576px) {
+    .text_person {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        color: #21243D;
+        margin-top: 20px;
+    }
+
+    .text_all {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #21243D;
+
+    }
+
+    .list {
+        display: flex;
+        gap: 30px;
+        padding-top: 30px;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    header {
+        padding-top: 45px;
+    }
+
+    .button_person {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+        padding: 10px 20px;
+        background: #FF6464;
+        border-radius: 2px;
+        justify-content: center;
+    }
+
+    .re {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 60px;
+        display: flex;
+        align-items: flex-end;
+        color: #21243D;
+        justify-content: center;
+    }
+
+    .text1 {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 30px;
+        color: #21243D;
+    }
+
+    .oo {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 60px;
+        color: #21243D;
+        text-align: center;
+    }
+
+    .box2 {
+        margin-top: 50px;
+    }
+
+    .cart1 {
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .sur {
+        margin-left: 25px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .design {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 30px;
+        color: #21243D;
+        text-align: start;
+    }
+
+    .key {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #21243D;
+        text-align: start;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .end {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #21243D;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .btn_div{
+        text-align: center;
+    }
 }

@@ -19,13 +19,13 @@
 
   <nav>
     <div class="container">
-      <div class="row justify-content-end">
-        <div class="col-4">
-          <ul class="list wow wobble">
+      <div class="row justify-content-center justify-content-sm-end">
+        <div class="col-10 col-sm-4">
+          <div class="list">
             <li class="list_item">Works</li>
             <li class="list_item">Blog</li>
             <li class="list_item">Contact</li>
-          </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -33,10 +33,11 @@
 
 
 
-  <header>
+
+  <header class="d-none d-sm-block">
     <div class="container">
-      <div class="row">
-        <div class="col-6">
+      <div class="row justify-content-center">
+        <div class=" col-sm-3">
           <h1 class="text_person wow flip">Hi, I am Muxlisa,
             Creative Student</h1>
           <p class="text_all wow fadeOut">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
@@ -44,7 +45,7 @@
             consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
           <button class="button_person">Download Resume</button>
         </div>
-        <div class="col-3">
+        <div class=" col-sm-4">
           <img src="./img/rasm.jpg" alt="" class="person_img wow rotateOut">
         </div>
       </div>
@@ -52,12 +53,37 @@
   </header>
 
 
-
-  <section>
+  <header class="d-block d-sm-none">
     <div class="container">
-      <div class="row">
-        <div class="col-5 wow bounceInLeft">
-          <p class="re">Recent posts</p>
+      <div class="row justify-content-center">
+        <div class="col-6 col-sm-3">
+          <img src="./img/rasm.jpg" alt="" class="person_img wow rotateOut">
+        </div>
+        <div class="col-10 col-sm-6">
+          <h1 class="text_person wow flip">Hi, I am Muxlisa,
+            Creative Student</h1>
+          <p class="text_all wow fadeOut">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+            Velit officia
+            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          <div class="btn_div">
+          <button class="button_person">Download Resume</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+
+  <section class="s1">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-10 col-sm-6 wow bounceInLeft">
+          <div class="res   ">
+            <p class="re">Recent posts</p>
+          </div>
+
           <div class="box1">
             <h2 class="text1">Making a design system from scratch</h2>
             <p class="text2">12 Feb 2020 | Design, Pattern</p>
@@ -65,8 +91,8 @@
               consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
           </div>
         </div>
-        <div class="col-5 wow bounceInRight ">
-          <p class="all">View all <a
+        <div class="col-10 col-sm-6 wow bounceInRight ">
+          <p class="all d-none d-sm-block">View all <a
               href="https://www.figma.com/file/8TxcdB4BNdkTod2C7Rqqfy/Portfolio-UI---Web-%26-Mobile-(Community)?node-id=6%3A52&t=rjpgOZekpNquvulr-0"></a>
           </p>
           <div class="box2">
@@ -83,19 +109,42 @@
 
 
 
-
-  <div class="two">
+  <section class="s2">
     <div class="container">
-      <div class="row">
+      <div class="row justify-content-center">
         <h4 class="oo">Featured works</h4>
 
-        <div class="cart1 wow bounceInLeft">
-          <div class="col-4">
-            <a target="_blank" href="https://friendly-kleicha-a07bfa.netlify.app">
-              <img src="./img/1.jpg" alt="" class="veb1">
-            </a>
+        <div class="row justify-content-center d-none d-sm-block">
+          <div class="cart1 wow bounceInLeft">
+            <div class="col-10 col-sm-3">
+              <a target="_blank" href="https://friendly-kleicha-a07bfa.netlify.app">
+                <img src="./img/1.jpg" alt="" class="veb1">
+              </a>
+            </div>
+            <div class="col-10 col-sm-6">
+              <div class="sur">
+                <h2 class="design">Designing Dashboards</h2>
+                <div class="ota">
+                  <p class="yil">2020</p>
+                  <p class="gray">Dashboard</p>
+                </div>
+                <p class="key">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                  consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+              </div>
+            </div>
           </div>
-          <div class="col-6">
+        </div>
+        <div class="row d-block d-sm-none">
+          <div class="cart1 wow bounceInLeft">
+            <div class="col-10 col-sm-3">
+              <a target="_blank" href="https://friendly-kleicha-a07bfa.netlify.app">
+                <img src="./img/1.jpg" alt="" class="veb1">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-10 col-sm-6">
             <div class="sur">
               <h2 class="design">Designing Dashboards</h2>
               <div class="ota">
@@ -108,53 +157,51 @@
           </div>
         </div>
         <hr>
-
-        <div class="cart wow bounceInRight">
-          <div class="col-4">
-            <a target="_blank" href="https://muxlisafigma.netlify.app">
-              <img src="./img/3.jpg" alt="" class="veb2">
-            </a>
-          </div>
-          <div class="col-6">
-            <div class="sur">
-              <h2 class="design1">Vibrant Portraits of 2020</h2>
-              <div class="ota">
-                <p class="yil">2020</p>
-                <p class="gray">Illustration</p>
+        <div class="row d-none d-sm-block">
+          <div class="cart1 wow bounceInLeft">
+            <div class="col-10 col-sm-3">
+              <a target="_blank" href="https://friendly-kleicha-a07bfa.netlify.app">
+                <img src="./img/1.jpg" alt="" class="veb1">
+              </a>
+            </div>
+            <div class="col-10 col-sm-6">
+              <div class="sur">
+                <h2 class="design">Designing Dashboards</h2>
+                <div class="ota">
+                  <p class="yil">2020</p>
+                  <p class="gray">Dashboard</p>
+                </div>
+                <p class="key">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                  consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
               </div>
-              <p class="key">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
             </div>
           </div>
         </div>
-
-        <hr>
-
-        <div class="cart wow bounceInLeft">
-          <div class="col-4">
-            <a target="_blank" href="https://heavenly-bodues.netlify.app">
-              <img src="./img/2.jpg" alt="" class="veb2">
-            </a>
-          </div>
-
-          <div class="col-6">
-            <div class="sur">
-
-              <h2 class="design1">36 Days of Malayalam type</h2>
-              <div class="ota">
-                <p class="yil">2020</p>
-                <p class="gray">Typography</p>
+        <hr class="hr2 d-none d-sm-block">
+        <div class="row d-none d-sm-block">
+          <div class="cart1 wow bounceInLeft">
+            <div class="col-10 col-sm-3">
+              <a target="_blank" href="https://friendly-kleicha-a07bfa.netlify.app">
+                <img src="./img/1.jpg" alt="" class="veb1">
+              </a>
+            </div>
+            <div class="col-10 col-sm-6">
+              <div class="sur">
+                <h2 class="design">Designing Dashboards</h2>
+                <div class="ota">
+                  <p class="yil">2020</p>
+                  <p class="gray">Dashboard</p>
+                </div>
+                <p class="key">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                  consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
               </div>
-              <p class="key">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
             </div>
           </div>
-          <hr>
         </div>
-
+        <hr class="hr3 d-none d-sm-block">
       </div>
     </div>
-  </div>
+  </section>
 
 
   <footer>
@@ -163,7 +210,8 @@
         <div class="col-10">
           <div class="icons wow wobble">
             <a target="_blank" href="hdbshbjsbfhjs"><i class="fa-brands fa-facebook"></i></a>
-            <a target="_blank" href="https://www.instagram.com/studentka0244/?next=%2F"><i class="fa-brands  fa-instagram"></i></a>
+            <a target="_blank" href="https://www.instagram.com/studentka0244/?next=%2F"><i
+                class="fa-brands  fa-instagram"></i></a>
             <a target="_blank" href="https://t.me/GoldWebCoder"><i class="fa-brands fa-telegram"></i></a>
             <a target="_blank" href="https://github.com/Muxlisaxon"><i class="fa-brands fa-github"></i></a>
 
@@ -173,20 +221,8 @@
       </div>
     </div>
   </footer>
-  
-<a  target="_blank"  href="file:///C:/Users/Admin/Desktop/veb-coder/index.html"><i></i></a>
 
-
-
-
-
-
-
-
-
-
-
-
+  <a target="_blank" href="file:///C:/Users/Admin/Desktop/veb-coder/index.html"><i></i></a>
 
 
 
