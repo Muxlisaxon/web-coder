@@ -252,7 +252,10 @@ footer {
 
 
 
-@media (max-width: 576px) {пше ыеф
+@media (max-width: 576px) {
+    .person{
+        text-align: center;
+    }
     .text_person {
         font-family: 'Heebo';
         font-style: normal;
@@ -272,7 +275,6 @@ footer {
         line-height: 24px;
         text-align: center;
         color: #21243D;
-
     }
 
     .list {
